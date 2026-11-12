@@ -95,7 +95,7 @@ export function ParameterPanel({ dataset, config, features, preprocess, dirty, b
           </AdvancedSection>
 
           <button type="button" onClick={onInitialize} disabled={!dataset || busy} className={`initialize-button ${dirty ? 'initialize-button-dirty' : ''}`}><FlaskConical size={17} /><span>{busy ? '正在计算…' : dirty ? '应用参数并重新初始化' : '重新初始化实验'}</span><ChevronRight size={16} className="ml-auto" /></button>
-          <p className="text-center text-xs text-ink-muted">所有计算均在你的本机完成</p>
+          <p className="text-center text-xs text-ink-muted">由 Flask + NumPy 计算服务处理</p>
         </div>
       </div>
     </aside>

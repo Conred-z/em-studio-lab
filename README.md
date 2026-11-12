@@ -4,6 +4,8 @@
 
 项目仓库：[github.com/Conred-z/em-studio-lab](https://github.com/Conred-z/em-studio-lab)
 
+在线系统：[em-studio-lab.onrender.com](https://em-studio-lab.onrender.com)
+
 ## 本地启动
 
 在当前工作区中，已有上级目录 `.venv`（Flask + NumPy）时：
