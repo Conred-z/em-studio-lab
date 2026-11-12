@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.gitignore
+.npm-cache
+.visual-check
+__pycache__
+*.pyc
+.venv
+README.md
+test_em.py
+server.mjs

@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: em-studio-lab
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeployTrigger: commit
+    numInstances: 1
